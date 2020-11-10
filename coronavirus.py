@@ -18,3 +18,4 @@ def nCov():
     	    result.append(happen[i] + str(data)[6:-7].replace('&gt;', '>'))
     	    i += 1
     return (str(result)[2:-2]).replace("\', \'", '\n')
+print(nCov())
